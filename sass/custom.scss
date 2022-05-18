@@ -1,3 +1,15 @@
+
+$danger: #FA5959;
+$primary: #5265E1;
+$secondary:#F7F7F7;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+.rounded-bottomleft {
+    border-radius: 0 0 0 200px;
+    background-color:#5265E1;
+    margin-left: 200px;
+    width: 400px;
+    height: 300px;
+}
 
