@@ -1,15 +1,46 @@
-
-$danger: #FA5959;
-$primary: #5265E1;
-$secondary:#F7F7F7;
+$primary: #5265e1;
+$secondary: #f7f7f7;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-.rounded-bottomleft {
-    border-radius: 0 0 0 200px;
-    background-color:#5265E1;
-    margin-left: 200px;
-    width: 400px;
-    height: 300px;
+.btn-danger {
+  color: #fff;
+  background-color: #fa5959;
 }
 
+.btn-danger:hover {
+  color: #fa5959;
+  background-color: #fff;
+  border-color: #fa5959;
+}
+
+// :hover {
+//   color: #fa5959;
+// }
+.btn-primary:hover {
+  color: #5265e1;
+  background-color: #fff;
+  border-color: #5265e1;
+}
+.btn-secondary:hover {
+  color: #112b3c;
+  background-color: #fff;
+  border-color: #112b3c;
+}
+
+.rounded-bottomleft {
+  border-radius: 0 0 0 200px;
+  background-color: #5265e1;
+  margin-left: 100px;
+  width: 500px;
+  height: 300px;
+  margin-top: 100px;
+}
+.navbar {
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+.img-fluid {
+  margin-left: -100px;
+  margin-top: -90px;
+}
