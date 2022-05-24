@@ -1,4 +1,5 @@
 $secondary: #f7f7f7;
+$enable-negative-margins: true;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -42,7 +43,7 @@ $secondary: #f7f7f7;
   margin-left: 10%;
   width: 90%;
   height: 100%;
-  margin-top: 100px;
+  margin-top: 85px;
 }
 .navbar {
   margin-bottom: 100px;
@@ -50,4 +51,14 @@ $secondary: #f7f7f7;
 .img-fluid {
   margin-left: -10%;
   margin-top: -90px;
+}
+.rounded-bottomright{
+    border-radius: 0 0 200px 0;
+    background-color: #5265e1;
+    margin-right: 50%;
+    width: 90%;
+    height: 70%;
+    margin-top: 30px;
+    
+
 }
