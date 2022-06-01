@@ -1,3 +1,4 @@
+$info: #293462;
 $primary: #5265e1;
 $secondary: #f7f7f7;
 $enable-negative-margins: true;
@@ -21,8 +22,8 @@ $enable-negative-margins: true;
 }
 
 .nav-link {
-    color: black;
-  }
+  color: black;
+}
 
 .nav-link:hover {
   color: #fa5959;
@@ -46,43 +47,43 @@ $enable-negative-margins: true;
   height: 100%;
   margin-top: 85px;
 }
-.navbar {
-  margin-bottom: 100px;
-}
+
 .img-fluid {
   margin-left: -10%;
   margin-top: -90px;
 }
 
-.rounded-bottomright{
-    border-radius: 0 0 200px 0;
-    background-color: #5265e1;
-    margin-right: 10%;
-    width: 90%;
-    height: 100%;
-    margin-top: 30px;
+.rounded-bottomright {
+  border-radius: 0 0 200px 0;
+  background-color: #5265e1;
+  margin-right: 10%;
+  width: 90%;
+  height: 100%;
+  margin-top: 30px;
 }
 
-.img-tab2{
-margin-left: 37%;
-margin-top:-21%;
-width: 72%;
-height: auto;
+.img-tab2 {
+  margin-left: 37%;
+  margin-top: -21%;
+  width: 72%;
+  height: auto;
 }
-
 
 .card-img-top {
-    width: 40%;
-    margin:auto;
-  }
-  .rounded-bottomright-tab{
-    border-radius: 0 0 200px 0;
-    background-color: #5265e1;
-    margin-right: 20%;
-    width: 90%;
-    height: 100%;
-    margin-top: 30px;
-  }
+  width: 40%;
+  margin: auto;
+}
+.rounded-bottomright-tab {
+  border-radius: 0 0 200px 0;
+  background-color: #5265e1;
+  margin-right: 20%;
+  width: 90%;
+  height: 100%;
+  margin-top: 30px;
+}
 
-
-  
+@supports (filter: invert(100%)) {
+  #filtrado {
+    filter: invert(100%);
+  }
+}
